@@ -1,2 +1,2 @@
 Test deploy GenealogiaV2
-Move to another Repo and Static Web App Test
+Move to another Repo and Storage Account Static Site
