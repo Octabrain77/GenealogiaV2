@@ -13,10 +13,6 @@
   "S1"
 ],
 
-"media": [
-  "P100/tomba_famiglia.jpg"
-],
-
 "tags": [
   "fondatore",
   "linea_diretta",
@@ -34,11 +30,7 @@
   "birthYear": 1825,
   "deathDate": "1904-03-28",
   "sources": [
-  ""
-],
-
-"media": [
-  "P100/tomba_famiglia.jpg"
+  "S1"
 ],
 
 "tags": [
@@ -620,12 +612,7 @@
     "P101"
   ],
 
-  "media": [
-    {
-      "name": "tomba_famiglia.jpg",
-      "url": "https://genealogia.blob.core.windows.net/sources/P100/tomba_famiglia.jpg"
-    }
-  ],
+  "file": "P100/tomba_famiglia.jpg",
 
   "researchStatus": "confermato"
 },
