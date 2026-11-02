@@ -1,0 +1,409 @@
+/* RESET */
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f3f4f6;
+}
+
+/* HEADER */
+
+header{
+    background:#1f2937;
+    color:white;
+    padding:15px;
+}
+
+header h1{
+    margin:0 0 12px 0;
+}
+
+/* TOOLBAR */
+
+.toolbar{
+    margin-bottom:12px;
+}
+
+.toolbar button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:6px;
+    padding:8px 12px;
+    margin-right:8px;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.toolbar button:hover{
+    background:#1d4ed8;
+}
+
+/* SEARCH */
+
+.search-bar{
+    margin-top:10px;
+}
+
+.search-bar input{
+    width:100%;
+    max-width:500px;
+    padding:10px;
+    border:1px solid #cbd5e1;
+    border-radius:6px;
+    font-size:14px;
+}
+
+/* LAYOUT */
+
+.container{
+    display:flex;
+    height:calc(100vh - 130px);
+}
+
+#content{
+    flex:1;
+    overflow:auto;
+    padding:20px;
+    background:#f1f5f9;
+}
+
+#details{
+    width:350px;
+    min-width:350px;
+    background:white;
+    border-left:1px solid #ddd;
+    padding:20px;
+    overflow:auto;
+}
+
+#details h2{
+    margin-top:0;
+}
+
+/* PERSONE */
+
+.person{
+    display:inline-block;
+    min-width:180px;
+    padding:12px;
+    margin:8px;
+    background:white;
+    border:2px solid #2563eb;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.2s;
+    vertical-align:top;
+}
+
+.person:hover{
+    background:#eff6ff;
+    transform:translateY(-2px);
+}
+
+/* FAMIGLIE */
+
+.family{
+    background:white;
+    border:1px solid #cbd5e1;
+    border-radius:8px;
+    padding:16px;
+    margin-bottom:20px;
+}
+
+.family h3{
+    margin-top:0;
+}
+
+/* LINK */
+
+a{
+    color:#1d4ed8;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* LISTE */
+
+ul{
+    padding-left:20px;
+}
+
+/* DISCENDENZA GERARCHICA */
+
+.tree-list{
+    list-style:none;
+    padding-left:0;
+}
+
+.tree-list > li{
+    margin-left:0;
+}
+
+.tree-list ul{
+    list-style:none;
+    margin-left:25px;
+    padding-left:25px;
+    border-left:3px solid #cbd5e1;
+}
+
+.tree-list li{
+    margin:10px 0;
+}
+
+.tree-list a{
+    font-weight:bold;
+    color:#1e3a8a;
+}
+
+/* SVG FUTURO */
+
+#tree-container{
+    width:100%;
+}
+
+#treeSvg{
+    width:2400px;
+    height:1400px;
+}
+
+.person-box{
+    fill:white;
+    stroke:#2563eb;
+    stroke-width:2;
+}
+
+.person-text{
+    font-size:12px;
+    text-anchor:middle;
+}
+
+.link{
+    stroke:#444;
+    stroke-width:2;
+}
+
+/* TIMELINE */
+
+.timeline-entry{
+    background:white;
+    border-left:4px solid #2563eb;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+/* MOBILE */
+
+@media (max-width:900px){
+
+    .container{
+        flex-direction:column;
+        height:auto;
+    }
+
+    #details{
+        width:100%;
+        min-width:auto;
+        border-left:none;
+        border-top:1px solid #ddd;
+    }
+
+    .person{
+        width:100%;
+        max-width:none;
+    }
+}
+/* DISCENDENZA */
+
+#treeViewport{
+    width:100%;
+    height:100%;
+    overflow:auto;
+}
+
+#treeContent{
+    min-width:1200px;
+    padding:20px;
+}
+
+.tree-person{
+    cursor:pointer;
+    font-weight:bold;
+    color:#1e3a8a;
+}
+
+.tree-person:hover{
+    text-decoration:underline;
+}
+
+.tree-dates{
+    color:#666;
+    margin-left:8px;
+    font-size:0.9em;
+}
+
+.tree-list{
+    list-style:none;
+    padding-left:20px;
+}
+
+.tree-list ul{
+    list-style:none;
+    margin-left:25px;
+    padding-left:25px;
+    border-left:3px solid #cbd5e1;
+}
+
+.tree-list li{
+    margin:10px 0;
+}
+/* PAN & ZOOM VIEWPORT */
+
+#treeViewport{
+    width:100%;
+    height:calc(100vh - 220px);
+    overflow:auto;
+    border:1px solid #ddd;
+    background:white;
+}
+
+#treeContent{
+    min-width:1400px;
+    padding:30px;
+}
+
+.tree-person{
+    cursor:pointer;
+    font-weight:bold;
+    color:#1e3a8a;
+}
+
+.tree-person:hover{
+    text-decoration:underline;
+}
+
+.tree-dates{
+    color:#666;
+    margin-left:8px;
+    font-size:0.9em;
+}
+.tree-toolbar{
+    margin-bottom:10px;
+}
+
+.tree-toolbar button{
+    margin-right:8px;
+}
+
+#treeViewport{
+    width:100%;
+    height:calc(100vh - 250px);
+    overflow:hidden;
+    border:1px solid #ddd;
+    background:white;
+    cursor:grab;
+}
+
+#treeViewport:active{
+    cursor:grabbing;
+}
+
+#treeContent{
+    width:max-content;
+    min-width:1200px;
+    padding:30px;
+    transform-origin:0 0;
+}
+/* CARD GENEALOGICHE */
+
+.tree-card{
+    display:inline-block;
+    min-width:220px;
+    padding:12px;
+    margin:4px 0;
+    background:white;
+    border:2px solid #2563eb;
+    border-radius:10px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.08);
+    cursor:pointer;
+    transition:all 0.2s ease;
+}
+
+.tree-card:hover{
+    background:#eff6ff;
+    transform:translateY(-2px);
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.tree-card-name{
+    font-weight:bold;
+    color:#1e3a8a;
+}
+
+.tree-card-dates{
+    margin-top:4px;
+    font-size:0.9em;
+    color:#666;
+}
+.tree-row{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.tree-toggle{
+    cursor:pointer;
+    font-weight:bold;
+    color:#2563eb;
+    width:25px;
+    text-align:center;
+    user-select:none;
+}
+
+.tree-toggle:hover{
+    color:#1d4ed8;
+}
+
+.tree-toggle-empty{
+    width:25px;
+    text-align:center;
+    color:#999;
+}
+/* GENERAZIONI */
+
+/* Capostipite */
+.gen-1{
+    background:#fef3c7;
+    border:2px solid #d97706;
+}
+
+/* Figli */
+.gen-2{
+    background:#dbeafe;
+    border:2px solid #2563eb;
+}
+
+/* Nipoti */
+.gen-3{
+    background:#dcfce7;
+    border:2px solid #16a34a;
+}
+
+/* Pronipoti */
+.gen-4{
+    background:#ede9fe;
+    border:2px solid #7c3aed;
+}
+
+/* Generazioni successive */
+.gen-5{
+    background:#f3f4f6;
+    border:2px solid #6b7280;
+}
