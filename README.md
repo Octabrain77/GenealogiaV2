@@ -1,1 +1,2 @@
-Test deploy genealogiadynamic 1
+Test deploy GenealogiaV2
+Move to another Repo and Static Web App
