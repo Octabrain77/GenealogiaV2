@@ -96,6 +96,15 @@ function showPerson(id){
 
     if(!p) return;
 
+    const personSources =
+        genealogy.sources
+            ? genealogy.sources.filter(
+                s =>
+                    p.sources &&
+                    p.sources.includes(s.id)
+            )
+            : [];
+
     document.getElementById("details").innerHTML = `
 
         <h2>${buildPersonName(p)}</h2>
@@ -148,79 +157,92 @@ function showPerson(id){
             `
             : ""
         }
-<h3>Fonti</h3>
 
-${
-    p.sources && p.sources.length > 0
-    ? `
-        <ul>
+        <h3>Fonti</h3>
 
-            ${
-                p.sources.map(sourceId => {
+        ${
+            personSources.length > 0
+            ? `
+                <ul>
 
-                    const source =
-                        genealogy.sources.find(
-                            s => s.id === sourceId
-                        );
+                    ${
+                        personSources.map(source => `
 
-                    if(!source) return "";
+                            <li>
 
-                    return `
+                                <strong>
+                                    ${source.title}
+                                </strong>
 
-                        <li>
+                                ${
+                                    source.media &&
+                                    source.media.length > 0
 
-                            <strong>
-                                ${source.title}
-                            </strong>
+                                    ? source.media.map(file => `
 
-                            ${
-                                source.media &&
-                                source.media.length > 0
+                                        <div style="margin-top:4px;">
 
-                                ? source.media.map(m => `
+                                            <a
+                                                href="https://genealogia.blob.core.windows.net/sources/${file}"
+                                                target="_blank">
 
-                                    <div>
+                                                📷 Apri documento
 
-                                        <a
-                                           href="${m.url}"
-                                           target="_blank">
+                                            </a>
 
-                                           📷 ${m.name}
+                                        </div>
 
-                                        </a>
+                                    `).join("")
 
-                                    </div>
+                                    : ""
+                                }
 
-                                `).join("")
+                            </li>
 
-                                : ""
-                            }
+                        `).join("")
 
-                        </li>
+                    }
 
-                    `;
-                }).join("")
-            }
+                </ul>
+            `
+            : "<p>Nessuna fonte collegata</p>"
+        }
 
-        </ul>
-      `
-    : `
-        <p>Nessuna fonte collegata</p>
-      `
-}
-</p>
+        <h3>Media</h3>
 
-<h3>Media</h3>
+        ${
+            p.media && p.media.length > 0
 
-<p>
-    ${
-        p.media && p.media.length > 0
-            ? p.media.length + " allegato/i"
-            : "Nessun allegato"
-    }
-</p>
+            ? `
+                <ul>
+
+                    ${
+                        p.media.map(file => `
+
+                            <li>
+
+                                <a
+                                    href="https://genealogia.blob.core.windows.net/sources/${file}"
+                                    target="_blank">
+
+                                    📷 ${file}
+
+                                </a>
+
+                            </li>
+
+                        `).join("")
+                    }
+
+                </ul>
+            `
+
+            : "<p>Nessun allegato</p>"
+        }
+
     `;
 }
+
 
 function showPeople(){
 
