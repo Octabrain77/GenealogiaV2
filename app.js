@@ -150,12 +150,64 @@ function showPerson(id){
         }
 <h3>Fonti</h3>
 
-<p>
-    ${
-        p.sources && p.sources.length > 0
-            ? p.sources.length + " fonte/i collegata/e"
-            : "Nessuna fonte collegata"
-    }
+${
+    p.sources && p.sources.length > 0
+    ? `
+        <ul>
+
+            ${
+                p.sources.map(sourceId => {
+
+                    const source =
+                        genealogy.sources.find(
+                            s => s.id === sourceId
+                        );
+
+                    if(!source) return "";
+
+                    return `
+
+                        <li>
+
+                            <strong>
+                                ${source.title}
+                            </strong>
+
+                            ${
+                                source.media &&
+                                source.media.length > 0
+
+                                ? source.media.map(m => `
+
+                                    <div>
+
+                                        <a
+                                           href="${m.url}"
+                                           target="_blank">
+
+                                           📷 ${m.name}
+
+                                        </a>
+
+                                    </div>
+
+                                `).join("")
+
+                                : ""
+                            }
+
+                        </li>
+
+                    `;
+                }).join("")
+            }
+
+        </ul>
+      `
+    : `
+        <p>Nessuna fonte collegata</p>
+      `
+}
 </p>
 
 <h3>Media</h3>
