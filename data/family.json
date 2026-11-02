@@ -100,7 +100,11 @@
       "alternateSurname": "Cappello",
       "birthDate": "1867-10-09",
       "deathDate": "1938-10-22",
-      "notes": "Coniuge da verificare tra Maria Saccati e Domenica Paniati."
+      "sources": [
+      "S2"
+      ],
+    "researchStatus": "confermato",
+    "notes": "Prime nozze con Domenica Paniati e seconde nozze con Maria Saccati."
     },
 
     {
@@ -140,7 +144,18 @@
       "givenName": "Luigia",
       "surname": "Ferro"
     },
-
+    {
+      "id": "P113",
+      "givenName": "Maria Maddalena Giuseppina",
+      "surname": "Saccati"
+      "birthDate": "1869-07-06",
+      "deathDate": "",
+      "sources": [
+      "S2"
+      ],
+      "researchStatus": "confermato",
+      "notes": "Sposata in seconde nozze da Capello Vittorio Francesco"
+    },
     {
   "id": "P3",
   "givenName": "Giovanni Luigi Giuseppe",
@@ -621,7 +636,16 @@
     {
       "id": "S2",
       "type": "marriage-record",
-      "title": "Atto matrimonio 1919"
+      "title": "Atto matrimonio 1919",
+
+      "persons": [
+      "P106",
+      "P1113"
+  ],
+
+  "file": "P106/P106-P113_Capello_Vittorio_Saccati_Maria_Atto_Matrimonio_1919.jpg",
+
+  "researchStatus": "confermato"
     },
     {
       "id": "S3",
