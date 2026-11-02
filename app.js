@@ -132,7 +132,7 @@ function showPerson(id){
                     <strong>Variante cognome:</strong>
                     ${p.alternateSurname}
                 </p>
-            `
+              `
             : ""
         }
 
@@ -143,7 +143,7 @@ function showPerson(id){
                     <strong>Varianti cognome:</strong>
                     ${p.alternateSurnames.join(", ")}
                 </p>
-            `
+              `
             : ""
         }
 
@@ -154,7 +154,7 @@ function showPerson(id){
                     <strong>Note:</strong><br>
                     ${p.notes}
                 </p>
-            `
+              `
             : ""
         }
 
@@ -162,39 +162,33 @@ function showPerson(id){
 
         ${
             personSources.length > 0
+
             ? `
+
                 <ul>
 
                     ${
+
                         personSources.map(source => `
 
                             <li>
 
-                                <strong>
-                                    ${source.title}
-                                </strong>
-
                                 ${
-                                    source.media &&
-                                    source.media.length > 0
+                                    source.file
 
-                                    ? source.media.map(file => `
+                                    ? `
 
-                                        <div style="margin-top:4px;">
+                                        <a
+                                            href="https://genealogia.blob.core.windows.net/sources/${source.file}"
+                                            target="_blank">
 
-                                            <a
-                                                href="https://genealogia.blob.core.windows.net/sources/${file}"
-                                                target="_blank">
+                                            📄 ${source.title}
 
-                                                📷 Apri documento
+                                        </a>
 
-                                            </a>
+                                    `
 
-                                        </div>
-
-                                    `).join("")
-
-                                    : ""
+                                    : source.title
                                 }
 
                             </li>
@@ -204,40 +198,10 @@ function showPerson(id){
                     }
 
                 </ul>
-            `
+
+              `
+
             : "<p>Nessuna fonte collegata</p>"
-        }
-
-        <h3>Media</h3>
-
-        ${
-            p.media && p.media.length > 0
-
-            ? `
-                <ul>
-
-                    ${
-                        p.media.map(file => `
-
-                            <li>
-
-                                <a
-                                    href="https://genealogia.blob.core.windows.net/sources/${file}"
-                                    target="_blank">
-
-                                    📷 ${file}
-
-                                </a>
-
-                            </li>
-
-                        `).join("")
-                    }
-
-                </ul>
-            `
-
-            : "<p>Nessun allegato</p>"
         }
 
     `;
