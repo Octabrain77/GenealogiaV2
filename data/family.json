@@ -599,7 +599,17 @@
   "id": "S1",
   "type": "grave",
   "title": "Tomba Ballario-Cappello",
-  "file": "P100/tomba_famiglia.jpg"
+
+  "persons": [
+    "P100",
+    "P101"
+  ],
+
+  "media": [
+    "P100/tomba_famiglia.jpg"
+  ],
+
+  "researchStatus": "confermato"
 },
     {
       "id": "S2",
