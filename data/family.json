@@ -808,7 +808,7 @@
     {
       "id": "S18",
       "type": "born-record",
-      "title": "Atto di nascita Torino Oreste Pietro Giovanni",
+      "title": "Atto di nascita Torino Oreste Pietro Giovanni - Savona",
       "persons": [
         "P107",
         "P108"
@@ -818,12 +818,12 @@
     {
       "id": "S19",
       "type": "born-record",
-      "title": "Atto di nascita Torino Attilio Antonio Giuseppe",
+      "title": "Atto di nascita Torino Attilio Antonio Giuseppe - Savona",
       "persons": [
         "P107",
         "P108"
       ],
-      "file": "P107/P107-P108_Torino_Attilio_Antonio_Giuseppe_1882_Atto_Nascita.jpg"
+      "file": "P107/P107-P108_Torino_Attilio_Antonio_Giuseppe_1885_Atto_Nascita.jpg"
     }
   ]
 }
