@@ -173,6 +173,17 @@
       "notes": "Sposato con Cappello Delia si evince da atto di morte allegato"
     },
     {
+      "id": "P116",
+      "givenName": "Domenica",
+      "surname": "Paniati",
+      "birthDate": "1875",
+      "deathDate": "1913",
+      "sources": [
+        "S14"
+      ],
+      "notes": "Sposata in prime nozze da Capello Vittorio Francesco"
+    },
+    {
       "id": "P3",
       "givenName": "Giovanni Luigi Giuseppe",
       "surname": "Cappello",
@@ -720,7 +731,8 @@
         "P105"
       ],
       "file": "P105/P105_Torino_Antonio_1854_Lapide.jpg"
-    },{
+    },
+    {
       "id": "S12",
       "type": "born-record",
       "title": "Atto di nascita Capello Giuseppe",
@@ -728,14 +740,24 @@
         "P1"
       ],
       "file": "P1/P1_Capello_Giuseppe_Angelo_Francesco_1863_atto_nascita_battesimo.jpg"
-    },{
+    },
+    {
       "id": "S13",
       "type": "death-record",
-      "title": "Atto di morte Capello Giuseppe",
+      "title": "Atto di morte Barbero Giuseppe",
       "persons": [
         "P115"
       ],
-      "file": "P115/PP115_Barbero_Giuseppe_Atto_Morte_1913.jpg"
+      "file": "P115/P115_Barbero_Giuseppe_Atto_Morte_1913.jpg"
+    },
+    {
+      "id": "S14",
+      "type": "death-record",
+      "title": "Atto di morte Paniati Domenica",
+      "persons": [
+        "P116"
+      ],
+      "file": "P116/P116_Domenica_Paniati_1913_Atto_Morte.jpg"
     }
   ]
 }
