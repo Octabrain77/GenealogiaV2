@@ -59,7 +59,8 @@
       "sources": [
         "S9",
         "S10"
-      ]
+      ],
+      "notes": "Sposata con Torino Antonio"
     },
     {
       "id": "P105",
@@ -69,23 +70,27 @@
       "deathDate": "1931-06-23",
       "sources": [
         "S11"
-      ]
+      ],
+      "notes": "Sposato con Cappello Maria"
     },
     {
       "id": "P1",
       "givenName": "Giuseppe Angelo Francesco",
-      "surname": "Cappello",
+      "surname": "Capello",
       "alternateSurnames": [
-        "Capello",
-        "Cap(p)ello"
+        "Cappello"
       ],
       "birthDate": "1863-08-03",
-      "notes": "Negli atti compare spesso come Capello. Nelle firme autografe compare frequentemente come Cappello."
+      "sources": [
+        "S12"
+      ],
+      "notes": "Mancante nella tomba di famiglia. Negli atti compare spesso come Capello. Nelle firme autografe compare frequentemente come Cappello. Sposato Gerbi Rosa"
     },
     {
       "id": "P2",
       "givenName": "Rosa",
-      "surname": "Gerbi"
+      "surname": "Gerbi",
+      "notes": "Mancante nella tomba di famiglia. Sposata con Capello Giuseppe"
     },
     {
       "id": "P106",
@@ -162,9 +167,10 @@
       "birthDate": "1852-09-30",
       "deathDate": "1913-02-30",
       "sources": [
-        "S8"
+        "S8",
+        "S13"
       ],
-      "notes": "Sposato con Cappello Delia"
+      "notes": "Sposato con Cappello Delia si evince da atto di morte allegato"
     },
     {
       "id": "P3",
@@ -714,6 +720,22 @@
         "P105"
       ],
       "file": "P105/P105_Torino_Antonio_1854_Lapide.jpg"
+    },{
+      "id": "S12",
+      "type": "born-record",
+      "title": "Atto di nascita Capello Giuseppe",
+      "persons": [
+        "P1"
+      ],
+      "file": "P1/P1_Capello_Giuseppe_Angelo_Francesco_1863_atto_nascita_battesimo.jpg"
+    },{
+      "id": "S13",
+      "type": "death-record",
+      "title": "Atto di morte Capello Giuseppe",
+      "persons": [
+        "P115"
+      ],
+      "file": "P115/PP115_Barbero_Giuseppe_Atto_Morte_1913.jpg"
     }
   ]
 }
