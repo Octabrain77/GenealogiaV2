@@ -47,10 +47,11 @@
       "birthDate": "1852-07-31",
       "deathDate": "1932-10-23",
       "sources": [
-        "S3"
+        "S3",
+        "S4"
       ],
       "researchStatus": "confermato",
-      "notes": "Documenti di nascita Capello e nasce 31.07 non 02.08 utile perchè nell'atto di nascita viene riportato figlio di Giovanni e di Giuseppe connsente di andare oltre Giovanni Capello ante 1822"
+      "notes": "Documenti di nascita Capello e nasce 31.07 non 02.08 come riportato su lapide. Utile perchè nell'atto di nascita viene riportato figlio di Giovanni e di Giuseppe connsente di andare oltre Giovanni Capello ante 1822"
     },
     {
       "id": "P103",
@@ -624,8 +625,13 @@
     },
     {
       "id": "S4",
-      "type": "handwritten-tree",
-      "title": "Schema genealogico manoscritto"
+      "type": "grave",
+      "title": "Lapide Tomba Famiglia Cap(p)ello Ferninando",
+      "persons": [
+        "P102"
+      ],
+      "file": "P102/P102_Cappello_Ferdinando_Giuseppe_1852_Lapide",
+      "researchStatus": "confermato"
     },
     {
       "id": "S5",
