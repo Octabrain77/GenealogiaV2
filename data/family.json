@@ -48,10 +48,15 @@
     {
       "id": "P102",
       "givenName": "Ferdinando",
-      "surname": "Cappello",
+      "surname": "Capello",
       "alternateSurname": "Cap(p)ello",
-      "birthDate": "1852-08-02",
-      "deathDate": "1932-10-23"
+      "birthDate": "1852-07-31",
+      "deathDate": "1932-10-23",
+      "sources": [
+  "S3"         
+],
+      "researchStatus": "confermato",
+      "notes": "Documenti di nascita Capello e nasce 31.07 non 02.08 utile perchè nell'atto di nascita viene riportato figlio di Giovanni e di Giuseppe connsente di andare oltre Giovanni Capello ante 1822"
     },
     {
       "id": "P103",
@@ -637,10 +642,9 @@
       "id": "S2",
       "type": "marriage-record",
       "title": "Atto matrimonio 1919",
-
       "persons": [
       "P106",
-      "P1113"
+      "P113"
   ],
 
   "file": "P106/P106-P113_Capello_Vittorio_Saccati_Maria_Atto_Matrimonio_1919.jpg",
@@ -649,8 +653,15 @@
     },
     {
       "id": "S3",
-      "type": "marriage-record",
-      "title": "Atto matrimonio 1921"
+      "type": "born-record",
+      "title": "Atto nascita e battesimo 1852",
+      "persons": [
+      "P103"     
+  ],
+
+  "file": "P103/P103_Capello_Ferdinando_Giuseppe_1852_Atto_Nascita_Battesimo.jpg",
+
+  "researchStatus": "confermato"
     },
     {
       "id": "S4",
