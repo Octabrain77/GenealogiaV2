@@ -135,12 +135,23 @@
       "id": "P109",
       "givenName": "Ferdinanda Rosa Caterina",
       "surname": "Capello",
-      "birthDate": "1882-06-14"
+      "birthDate": "1882-06-14",
+      "sources": [
+        "S20"
+      ],
+      "notes": "Moglie di Bona Natale Luigi ma la tomba dove si trova?"
     },
     {
       "id": "P110",
       "givenName": "Natale Luigi",
-      "surname": "Bona"
+      "surname": "Bona",
+      "birthDate": "1886-09-29",
+      "deathDate": "1956-03-25",
+      "sources": [
+        "S20",
+        "S21"
+      ],
+      "notes": "Marito di Capello Ferdinanda Rosa Caterina"
     },
     {
       "id": "P111",
@@ -824,6 +835,25 @@
         "P108"
       ],
       "file": "P107/P107-P108_Torino_Attilio_Antonio_Giuseppe_1885_Atto_Nascita.jpg"
-    }
+    },
+    {
+      "id": "S20",
+      "type": "marriage-record",
+      "title": "Atto di matrimonio Capello Ferdinanda Rosa Caterina e Bona Natale Luigi",
+      "persons": [
+        "P109",
+        "P110"
+      ],
+      "file": "P109-P110_Capello_Ferdinanda_Rosa_Caterina_Bona_Natale_Luigi_Atto_Matrimonio_1921.jpg"
+    },{
+      "id": "S21",
+      "type": "grave",
+      "title": "Lapide Tomba Famiglia Cap(p)ello Asti",
+      "persons": [
+        "P109",
+        "P110"
+      ],
+      "file": "P110/P110_Bona_Natale_Luigi_1886_Lapide.jpg"
+    },
   ]
 }
