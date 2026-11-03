@@ -626,7 +626,7 @@
     {
       "id": "S4",
       "type": "grave",
-      "title": "Lapide Tomba Famiglia Cap(p)ello Ferninando",
+      "title": "Lapide Tomba Famiglia Cap(p)ello Asti",
       "persons": [
         "P102"
       ],
@@ -642,6 +642,16 @@
         "P101"
       ],
       "file": "P100/P100-P101_Cappello_Giovanni_Ballario_Caterina_Atti_Morte_1904.jpg",
+      "researchStatus": "confermato"
+    },
+    {
+      "id": "S6",
+      "type": "grave",
+      "title": "Lapide Tomba Famiglia Cap(p)ello Asti",
+      "persons": [
+        "P103"
+      ],
+      "file": "P103/P103_Terzuolo_Elisabetta_1869_Lapide.jpg",
       "researchStatus": "confermato"
     }
   ]
