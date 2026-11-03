@@ -845,7 +845,8 @@
         "P110"
       ],
       "file": "P109-P110_Capello_Ferdinanda_Rosa_Caterina_Bona_Natale_Luigi_Atto_Matrimonio_1921.jpg"
-    },{
+    },
+    {
       "id": "S21",
       "type": "grave",
       "title": "Lapide Tomba Famiglia Cap(p)ello Asti",
@@ -854,6 +855,6 @@
         "P110"
       ],
       "file": "P110/P110_Bona_Natale_Luigi_1886_Lapide.jpg"
-    },
+    }
   ]
 }
