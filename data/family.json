@@ -108,12 +108,26 @@
     {
       "id": "P107",
       "givenName": "Clotilde",
-      "surname": "Cappello"
+      "surname": "Cappello",
+      "birthDate": "",
+      "deathDate": "",
+      "sources": [
+        "S17",
+        "S18"
+      ],
+      "notes": "Sposata con Torino Luigi"
     },
     {
       "id": "P108",
       "givenName": "Luigi",
-      "surname": "Torino"
+      "surname": "Torino",
+      "birthDate": "1857",
+      "deathDate": "",
+      "sources": [
+        "S17",
+        "S18"
+      ],
+      "notes": "Sposato con Capello Clotilde"
     },
     {
       "id": "P109",
@@ -778,6 +792,25 @@
         "P116"
       ],
       "file": "P116/P116_Paniati_Domenica_1875_Lapide.jpg"
+    },
+    {
+      "id": "S17",
+      "type": "grave",
+      "title": "Lapide Tomba Famiglia Cap(p)ello Asti",
+      "persons": [
+        "P107",
+        "P108"
+      ],
+      "file": "P107/P107_Torino_Luigi_1875_Capello_Clotilde_Lapide.jpg"
+    },
+    {
+      "id": "S18",
+      "type": "born-record",
+      "title": "Atto di nascita Torino Oreste Pietro Giovanni",
+      "persons": [
+        "P116"
+      ],
+      "file": "P107/P107-P108_Torino_Oreste_Pietro_Giovanni_1882_Atto_Nascita.jpg"
     }
   ]
 }
