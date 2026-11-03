@@ -38,7 +38,6 @@
         "S3",
         "S4"
       ],
-      "researchStatus": "confermato",
       "notes": "Documenti di nascita Capello e nasce 31.07 non 02.08 come riportato su lapide. Utile perchè nell'atto di nascita viene riportato figlio di Giovanni e di Giuseppe connsente di andare oltre Giovanni Capello ante 1822"
     },
     {
@@ -56,7 +55,10 @@
       "givenName": "Maria",
       "surname": "Cappello",
       "birthYear": 1860,
-      "deathDate": "1921-04-09"
+      "deathDate": "1921-04-09",
+      "sources": [
+        "S9"
+      ]
     },
     {
       "id": "P105",
@@ -681,6 +683,15 @@
         "P115"
       ],
       "file": "P115/P115_Barbero_Giuseppe_1852_Lapide.jpg"
+    },
+    {
+      "id": "S9",
+      "type": "grave",
+      "title": "Lapide Tomba Famiglia Cap(p)ello Asti",
+      "persons": [
+        "P104"
+      ],
+      "file": "P104/P104_Barbero_Giuseppe_1852_Lapide.jpg"
     }
   ]
 }
