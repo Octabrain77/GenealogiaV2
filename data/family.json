@@ -113,9 +113,10 @@
       "deathDate": "",
       "sources": [
         "S17",
-        "S18"
+        "S18",
+        "S19"
       ],
-      "notes": "Sposata con Torino Luigi"
+      "notes": "Sposata con Torino Luigi, figli Oreste e Attilio"
     },
     {
       "id": "P108",
@@ -125,9 +126,10 @@
       "deathDate": "",
       "sources": [
         "S17",
-        "S18"
+        "S18",
+        "S19"
       ],
-      "notes": "Sposato con Capello Clotilde"
+      "notes": "Sposato con Capello Clotilde, figli Oreste e Attilio"
     },
     {
       "id": "P109",
@@ -808,9 +810,20 @@
       "type": "born-record",
       "title": "Atto di nascita Torino Oreste Pietro Giovanni",
       "persons": [
-        "P116"
+        "P107",
+        "P108"
       ],
       "file": "P107/P107-P108_Torino_Oreste_Pietro_Giovanni_1882_Atto_Nascita.jpg"
+    },
+    {
+      "id": "S19",
+      "type": "born-record",
+      "title": "Atto di nascita Torino Attilio Antonio Giuseppe",
+      "persons": [
+        "P107",
+        "P108"
+      ],
+      "file": "P107/P107-P108_Torino_Attilio_Antonio_Giuseppe_1882_Atto_Nascita.jpg"
     }
   ]
 }
