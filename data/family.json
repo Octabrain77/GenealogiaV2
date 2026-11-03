@@ -180,7 +180,8 @@
       "birthDate": "1875",
       "deathDate": "1913-12-22",
       "sources": [
-        "S14"
+        "S14",
+        "S16"
       ],
       "notes": "Sposata in prime nozze da Capello Vittorio Francesco"
     },
@@ -768,6 +769,15 @@
         "P106"
       ],
       "file": "P106/P106_Capello_Vittorio_1867_Lapide.jpg"
+    },
+    {
+      "id": "S16",
+      "type": "grave",
+      "title": "Lapide Tomba Famiglia Cap(p)ello Asti",
+      "persons": [
+        "P116"
+      ],
+      "file": "P116/P116_Paniati_Domenica_1875_Lapide.jpg"
     }
   ]
 }
