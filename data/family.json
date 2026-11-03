@@ -13,12 +13,6 @@
         "S1",
         "S5"
       ],
-      "tags": [
-        "fondatore",
-        "linea_diretta",
-        "documentato"
-      ],
-      "researchStatus": "confermato",
       "notes": "Ortolano. Figlio di Giuseppe Cappello e Teresa Vogliolo. Vedovo di Caterina Ballario. Morì il 28/03/1904, lo stesso giorno della moglie."
     },
     {
@@ -31,12 +25,6 @@
         "S1",
         "S5"
       ],
-      "tags": [
-        "fondatore",
-        "linea_diretta",
-        "documentato"
-      ],
-      "researchStatus": "confermato",
       "notes": "Ortolana. Figlia di Giuseppe Ballario e Angela Rivella. Morì il 28/03/1904, lo stesso giorno del marito Giovanni Cappello."
     },
     {
@@ -103,7 +91,6 @@
       "sources": [
         "S2"
       ],
-      "researchStatus": "confermato",
       "notes": "Prime nozze con Domenica Paniati e seconde nozze con Maria Saccati."
     },
     {
@@ -149,8 +136,29 @@
       "sources": [
         "S2"
       ],
-      "researchStatus": "confermato",
       "notes": "Sposata in seconde nozze da Capello Vittorio Francesco"
+    },
+    {
+      "id": "P114",
+      "givenName": "Delia",
+      "surname": "Cappello",
+      "birthDate": "1855",
+      "deathDate": "1937-01-24",
+      "sources": [
+        "S7"
+      ],
+      "notes": "Sposata con Barbero Giuseppe"
+    },
+    {
+      "id": "P115",
+      "givenName": "Giuseppe",
+      "surname": "Barbero",
+      "birthDate": "1852-09-30",
+      "deathDate": "1913-02-30",
+      "sources": [
+        "S8"
+      ],
+      "notes": "Sposato con Cappello Delia"
     },
     {
       "id": "P3",
@@ -654,8 +662,24 @@
       "persons": [
         "P103"
       ],
-      "file": "P103/P103_Terzuolo_Elisabetta_1869_Lapide.jpg",
-      "researchStatus": "confermato"
-    }
+      "file": "P103/P103_Terzuolo_Elisabetta_1869_Lapide.jpg"
+    },
+    {
+      "id": "S7",
+      "type": "grave",
+      "title": "Lapide Tomba Famiglia Cap(p)ello Asti",
+      "persons": [
+        "P114"
+      ],
+      "file": "P114/P114_Cappello_Delia_1855_Lapide.jpg"
+    },
+    {
+      "id": "S8",
+      "type": "grave",
+      "title": "Lapide Tomba Famiglia Cap(p)ello Asti",
+      "persons": [
+        "P115"
+      ],
+      "file": "P115/P115_Barbero_Giuseppe_1852_Lapide.jpg"
   ]
 }
