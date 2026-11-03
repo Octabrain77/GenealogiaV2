@@ -136,10 +136,12 @@
       "givenName": "Ferdinanda Rosa Caterina",
       "surname": "Capello",
       "birthDate": "1882-06-14",
+      "deathDate": "1962",
       "sources": [
-        "S20"
+        "S20",
+        "S22"
       ],
-      "notes": "Moglie di Bona Natale Luigi ma la tomba dove si trova?"
+      "notes": "Moglie di Bona Natale Luigi, Tomba di famiglia come Cappello 1881-1962, probabile madre di Nino Bona 1922-1928 nella tomba stessa"
     },
     {
       "id": "P110",
@@ -855,6 +857,14 @@
         "P110"
       ],
       "file": "P110/P110_Bona_Natale_Luigi_1886_Lapide.jpg"
+    }, {
+      "id": "S22",
+      "type": "grave",
+      "title": "Lapide Tomba Famiglia Cap(p)ello Asti",
+      "persons": [
+        "P109"
+      ],
+      "file": "P109/P109_Capello_Ferdinanda_Rosa_Caterina_1882_Lapide.jpg"
     }
   ]
 }
