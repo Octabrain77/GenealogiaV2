@@ -100,7 +100,8 @@
       "birthDate": "1867-10-09",
       "deathDate": "1938-10-22",
       "sources": [
-        "S2"
+        "S2",
+        "S15"
       ],
       "notes": "Prime nozze con Domenica Paniati e seconde nozze con Maria Saccati."
     },
@@ -177,7 +178,7 @@
       "givenName": "Domenica",
       "surname": "Paniati",
       "birthDate": "1875",
-      "deathDate": "1913",
+      "deathDate": "1913-12-22",
       "sources": [
         "S14"
       ],
@@ -758,6 +759,15 @@
         "P116"
       ],
       "file": "P116/P116_Paniati_Domenica_1913_Atto_Morte.jpg"
+    },
+    {
+      "id": "S15",
+      "type": "grave",
+      "title": "Lapide Tomba Famiglia Cap(p)ello Asti",
+      "persons": [
+        "P106"
+      ],
+      "file": "P106/P106_Capello_Vittorio_1867_Lapide.jpg"
     }
   ]
 }
