@@ -1,50 +1,44 @@
 {
   "persons": [
     {
-  "id": "P100",
-  "givenName": "Giovanni",
-  "surname": "Cappello",
-  "alternateSurnames": [
-    "Capello"
-  ],
-  "birthYear": 1822,
-  "deathDate": "1904-03-28",
-  "sources": [
-  "S1",
-  "S5"
-],
-
-"tags": [
-  "fondatore",
-  "linea_diretta",
-  "documentato"
-],
-
-"researchStatus": "confermato",
-  "notes": "Ortolano. Figlio di Giuseppe Cappello e Teresa Vogliolo. Vedovo di Caterina Ballario. Morì il 28/03/1904, lo stesso giorno della moglie."
-}
-,
+      "id": "P100",
+      "givenName": "Giovanni",
+      "surname": "Cappello",
+      "alternateSurnames": [
+        "Capello"
+      ],
+      "birthYear": 1822,
+      "deathDate": "1904-03-28",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "tags": [
+        "fondatore",
+        "linea_diretta",
+        "documentato"
+      ],
+      "researchStatus": "confermato",
+      "notes": "Ortolano. Figlio di Giuseppe Cappello e Teresa Vogliolo. Vedovo di Caterina Ballario. Morì il 28/03/1904, lo stesso giorno della moglie."
+    },
     {
-  "id": "P101",
-  "givenName": "Caterina",
-  "surname": "Ballario",
-  "birthYear": 1825,
-  "deathDate": "1904-03-28",
-  "sources": [
-  "S1",
-  "S5"
-],
-
-"tags": [
-  "fondatore",
-  "linea_diretta",
-  "documentato"
-],
-
-"researchStatus": "confermato",
-  "notes": "Ortolana. Figlia di Giuseppe Ballario e Angela Rivella. Morì il 28/03/1904, lo stesso giorno del marito Giovanni Cappello."
-},
-
+      "id": "P101",
+      "givenName": "Caterina",
+      "surname": "Ballario",
+      "birthYear": 1825,
+      "deathDate": "1904-03-28",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "tags": [
+        "fondatore",
+        "linea_diretta",
+        "documentato"
+      ],
+      "researchStatus": "confermato",
+      "notes": "Ortolana. Figlia di Giuseppe Ballario e Angela Rivella. Morì il 28/03/1904, lo stesso giorno del marito Giovanni Cappello."
+    },
     {
       "id": "P102",
       "givenName": "Ferdinando Giuseppe",
@@ -53,8 +47,8 @@
       "birthDate": "1852-07-31",
       "deathDate": "1932-10-23",
       "sources": [
-  "S3"         
-],
+        "S3"
+      ],
       "researchStatus": "confermato",
       "notes": "Documenti di nascita Capello e nasce 31.07 non 02.08 utile perchè nell'atto di nascita viene riportato figlio di Giovanni e di Giuseppe connsente di andare oltre Giovanni Capello ante 1822"
     },
@@ -65,7 +59,6 @@
       "birthDate": "1869-09-21",
       "deathDate": "1931-03-06"
     },
-
     {
       "id": "P104",
       "givenName": "Maria",
@@ -80,24 +73,22 @@
       "birthDate": "1854-04-29",
       "deathDate": "1931-06-23"
     },
-
     {
-  "id": "P1",
-  "givenName": "Giuseppe Angelo Francesco",
-  "surname": "Cappello",
-  "alternateSurnames": [
-    "Capello",
-    "Cap(p)ello"
-  ],
-  "birthDate": "1863-08-03",
-  "notes": "Negli atti compare spesso come Capello. Nelle firme autografe compare frequentemente come Cappello."
-},
+      "id": "P1",
+      "givenName": "Giuseppe Angelo Francesco",
+      "surname": "Cappello",
+      "alternateSurnames": [
+        "Capello",
+        "Cap(p)ello"
+      ],
+      "birthDate": "1863-08-03",
+      "notes": "Negli atti compare spesso come Capello. Nelle firme autografe compare frequentemente come Cappello."
+    },
     {
       "id": "P2",
       "givenName": "Rosa",
       "surname": "Gerbi"
     },
-
     {
       "id": "P106",
       "givenName": "Vittorio Francesco",
@@ -106,24 +97,21 @@
       "birthDate": "1867-10-09",
       "deathDate": "1938-10-22",
       "sources": [
-      "S2"
+        "S2"
       ],
-    "researchStatus": "confermato",
-    "notes": "Prime nozze con Domenica Paniati e seconde nozze con Maria Saccati."
+      "researchStatus": "confermato",
+      "notes": "Prime nozze con Domenica Paniati e seconde nozze con Maria Saccati."
     },
-
     {
       "id": "P107",
       "givenName": "Clotilde",
       "surname": "Cappello"
     },
-
     {
       "id": "P108",
       "givenName": "Luigi",
       "surname": "Torino"
     },
-
     {
       "id": "P109",
       "givenName": "Ferdinanda Rosa Caterina",
@@ -135,7 +123,6 @@
       "givenName": "Natale Luigi",
       "surname": "Bona"
     },
-
     {
       "id": "P111",
       "givenName": "Alfredo Antonio Francesco",
@@ -156,23 +143,22 @@
       "birthDate": "1869-07-06",
       "deathDate": "",
       "sources": [
-      "S2"
+        "S2"
       ],
       "researchStatus": "confermato",
       "notes": "Sposata in seconde nozze da Capello Vittorio Francesco"
     },
     {
-  "id": "P3",
-  "givenName": "Giovanni Luigi Giuseppe",
-  "surname": "Cappello",
-  "alternateSurnames": [
-    "Capello"
-  ],
-  "birthDate": "1891-04-01",
-  "deathYear": 1962,
-  "notes": "Sposò Maria Bobba il 06/01/1913."
-},
-
+      "id": "P3",
+      "givenName": "Giovanni Luigi Giuseppe",
+      "surname": "Cappello",
+      "alternateSurnames": [
+        "Capello"
+      ],
+      "birthDate": "1891-04-01",
+      "deathYear": 1962,
+      "notes": "Sposò Maria Bobba il 06/01/1913."
+    },
     {
       "id": "P4",
       "givenName": "Maria",
@@ -180,37 +166,33 @@
       "birthYear": 1893,
       "deathYear": 1969
     },
-
     {
-  "id": "P10",
-  "givenName": "Francesco Antonio Giuseppe",
-  "nickname": "Cichin",
-  "surname": "Cappello",
-  "alternateSurnames": [
-    "Capello"
-  ],
-  "birthDate": "1895-02-28",
-  "deathYear": 1982,
-  "notes": "Sposò Teresa Francesca Ermelinda Zoppi il 28/12/1923 presso San Pietro di Asti."
-},
-
+      "id": "P10",
+      "givenName": "Francesco Antonio Giuseppe",
+      "nickname": "Cichin",
+      "surname": "Cappello",
+      "alternateSurnames": [
+        "Capello"
+      ],
+      "birthDate": "1895-02-28",
+      "deathYear": 1982,
+      "notes": "Sposò Teresa Francesca Ermelinda Zoppi il 28/12/1923 presso San Pietro di Asti."
+    },
     {
       "id": "P11",
       "givenName": "Teresa Francesca Ermelinda",
       "surname": "Zoppi"
     },
-
     {
-  "id": "P12",
-  "givenName": "Clara Catterina Maria",
-  "surname": "Cappello",
-  "alternateSurnames": [
-    "Capello"
-  ],
-  "birthDate": "1886-02-07",
-  "notes": "Viveva presso l'Istituto dei Caissotti."
-},
-
+      "id": "P12",
+      "givenName": "Clara Catterina Maria",
+      "surname": "Cappello",
+      "alternateSurnames": [
+        "Capello"
+      ],
+      "birthDate": "1886-02-07",
+      "notes": "Viveva presso l'Istituto dei Caissotti."
+    },
     {
       "id": "P5",
       "givenName": "Carlo",
@@ -219,7 +201,6 @@
       "deathYear": 1923,
       "notes": "Morto a due mesi."
     },
-
     {
       "id": "P6",
       "givenName": "Giuseppe",
@@ -228,7 +209,6 @@
       "birthDate": "1917-11-04",
       "deathDate": "1971-07-16"
     },
-
     {
       "id": "P7",
       "givenName": "Rosa",
@@ -237,7 +217,6 @@
       "birthYear": 1920,
       "deathYear": 2004
     },
-
     {
       "id": "P8",
       "givenName": "Francesco",
@@ -246,7 +225,6 @@
       "birthYear": 1924,
       "deathYear": 1973
     },
-
     {
       "id": "P9",
       "givenName": "Angelo",
@@ -254,7 +232,6 @@
       "birthYear": 1925,
       "deathYear": 1983
     },
-
     {
       "id": "P14",
       "givenName": "Giuseppe",
@@ -262,7 +239,6 @@
       "birthYear": 1924,
       "deathYear": 2014
     },
-
     {
       "id": "P15",
       "givenName": "Rosa Maria",
@@ -271,222 +247,218 @@
       "deathYear": 2017,
       "notes": "Sposata Fornaca."
     },
-
     {
       "id": "P16",
       "givenName": "Fabrizio",
       "surname": "Cappello"
     },
-
     {
       "id": "P17",
       "givenName": "Giovanni",
       "surname": "Cappello"
     },
-
     {
       "id": "P18",
       "givenName": "Franca Maria",
       "surname": "Cappello"
     },
-{
-  "id": "P200",
-  "givenName": "Giuseppe",
-  "surname": "Cappello",
-  "notes": "Coniuge Teresa Vogliolo."
-},
-{
-  "id": "P201",
-  "givenName": "Teresa",
-  "surname": "Vogliolo"
-},
-{
-  "id": "P202",
-  "givenName": "Giuseppe",
-  "surname": "Ballario"
-},
-{
-  "id": "P203",
-  "givenName": "Angela",
-  "surname": "Rivella"
-},
-{
-  "id": "P205",
-  "givenName": "Catterina Angiolina Maria",
-  "surname": "Cappello",
-  "alternateSurnames": [
-    "Capello"
-  ],
-  "birthDate": "1887-06-24",
-  "notes": "Sposò Ferrero Edoardo il 18/09/1913 a Villa San Secondo."
-},
-{
-  "id": "P206",
-  "givenName": "Maria Carmela Giuseppina",
-  "surname": "Cappello",
-  "alternateSurnames": [
-    "Capello"
-  ],
-  "birthDate": "1889-04-28",
-  "notes": "Sposò Michele Martinelli (?) il 25/02/1927 a San Martino Asti."
-},
+    {
+      "id": "P200",
+      "givenName": "Giuseppe",
+      "surname": "Cappello",
+      "notes": "Coniuge Teresa Vogliolo."
+    },
+    {
+      "id": "P201",
+      "givenName": "Teresa",
+      "surname": "Vogliolo"
+    },
+    {
+      "id": "P202",
+      "givenName": "Giuseppe",
+      "surname": "Ballario"
+    },
+    {
+      "id": "P203",
+      "givenName": "Angela",
+      "surname": "Rivella"
+    },
+    {
+      "id": "P205",
+      "givenName": "Catterina Angiolina Maria",
+      "surname": "Cappello",
+      "alternateSurnames": [
+        "Capello"
+      ],
+      "birthDate": "1887-06-24",
+      "notes": "Sposò Ferrero Edoardo il 18/09/1913 a Villa San Secondo."
+    },
+    {
+      "id": "P206",
+      "givenName": "Maria Carmela Giuseppina",
+      "surname": "Cappello",
+      "alternateSurnames": [
+        "Capello"
+      ],
+      "birthDate": "1889-04-28",
+      "notes": "Sposò Michele Martinelli (?) il 25/02/1927 a San Martino Asti."
+    },
     {
       "id": "P19",
       "givenName": "Piero",
       "surname": "Cappello"
     },
-{
-  "id": "P230",
-  "givenName": "Maria",
-  "surname": "Ferraris",
-  "birthDate": "1921-02-23"
-},
-{
-  "id": "P231",
-  "givenName": "Giovanna",
-  "surname": "Cappello",
-  "birthDate": "1941-11-12",
-  "deathDate": "2023-09-15"
-},
-{
-  "id": "P232",
-  "givenName": "Mario",
-  "surname": "Cappello",
-  "birthDate": "1947-02-11"
-},
-{
-  "id": "P233",
-  "givenName": "Rosanna",
-  "surname": "Cappello",
-  "birthDate": "1955-11-05"
-},
-{
-  "id": "P234",
-  "givenName": "Imelda",
-  "surname": "Cappello",
-  "birthDate": "1943-09-28",
-  "deathDate": "2022-10-02"
-},
-{
-  "id": "P235",
-  "givenName": "Renato",
-  "surname": "Raviola",
-  "birthYear": 1936,
-  "deathYear": 1986
-},
-{
-  "id": "P236",
-  "givenName": "Franco",
-  "surname": "Raviola"
-},
-{
-  "id": "P237",
-  "givenName": "Silvana",
-  "surname": "Raviola"
-},
-{
-  "id": "P238",
-  "givenName": "Davide",
-  "surname": "Cappello",
-  "birthDate": "1977-03-21"
-},
-{
-  "id": "P239",
-  "givenName": "Monica",
-  "surname": "Grillone",
-  "birthDate": "1976-02-27",
-  "notes": "Matrimonio 06/06/2009"
-},
-{
-  "id": "P240",
-  "givenName": "Chiara",
-  "surname": "Cappello",
-  "birthDate": "2012-06-24"
-},
-{
-  "id": "P241",
-  "givenName": "Serena",
-  "surname": "Cappello",
-  "birthDate": "2016-04-14"
-},
-{
-  "id": "P242",
-  "givenName": "Stefano",
-  "surname": "Cappello",
-  "birthDate": "1972-04-23"
-},
-{
-  "id": "P243",
-  "givenName": "Anna Maria",
-  "surname": "Melis",
-  "notes": "Matrimonio 27/08/2005"
-},
-{
-  "id": "P244",
-  "givenName": "Mattia",
-  "surname": "Cappello",
-  "birthDate": "2006-11-27"
-},
-{
-  "id": "P245",
-  "givenName": "Daniele",
-  "surname": "Cappello",
-  "birthDate": "2006-11-27"
-},
-{
-  "id": "P246",
-  "givenName": "Angelo",
-  "surname": "Bergantin"
-},
-{
-  "id": "P247",
-  "givenName": "Giorgio",
-  "surname": "Bergantin"
-},
-{
-  "id": "P248",
-  "givenName": "Marco",
-  "surname": "Bergantin"
-},
-{
-  "id": "P249",
-  "givenName": "Luciana",
-  "surname": "Mainetti"
-},
-{
-  "id": "P250",
-  "givenName": "Marisa",
-  "surname": "Mainetti"
-},
-{
-  "id": "P251",
-  "givenName": "Roberto",
-  "surname": "Mainetti"
-},
-{
-  "id": "P252",
-  "givenName": "Massimo",
-  "surname": "Mainetti"
-}
+    {
+      "id": "P230",
+      "givenName": "Maria",
+      "surname": "Ferraris",
+      "birthDate": "1921-02-23"
+    },
+    {
+      "id": "P231",
+      "givenName": "Giovanna",
+      "surname": "Cappello",
+      "birthDate": "1941-11-12",
+      "deathDate": "2023-09-15"
+    },
+    {
+      "id": "P232",
+      "givenName": "Mario",
+      "surname": "Cappello",
+      "birthDate": "1947-02-11"
+    },
+    {
+      "id": "P233",
+      "givenName": "Rosanna",
+      "surname": "Cappello",
+      "birthDate": "1955-11-05"
+    },
+    {
+      "id": "P234",
+      "givenName": "Imelda",
+      "surname": "Cappello",
+      "birthDate": "1943-09-28",
+      "deathDate": "2022-10-02"
+    },
+    {
+      "id": "P235",
+      "givenName": "Renato",
+      "surname": "Raviola",
+      "birthYear": 1936,
+      "deathYear": 1986
+    },
+    {
+      "id": "P236",
+      "givenName": "Franco",
+      "surname": "Raviola"
+    },
+    {
+      "id": "P237",
+      "givenName": "Silvana",
+      "surname": "Raviola"
+    },
+    {
+      "id": "P238",
+      "givenName": "Davide",
+      "surname": "Cappello",
+      "birthDate": "1977-03-21"
+    },
+    {
+      "id": "P239",
+      "givenName": "Monica",
+      "surname": "Grillone",
+      "birthDate": "1976-02-27",
+      "notes": "Matrimonio 06/06/2009"
+    },
+    {
+      "id": "P240",
+      "givenName": "Chiara",
+      "surname": "Cappello",
+      "birthDate": "2012-06-24"
+    },
+    {
+      "id": "P241",
+      "givenName": "Serena",
+      "surname": "Cappello",
+      "birthDate": "2016-04-14"
+    },
+    {
+      "id": "P242",
+      "givenName": "Stefano",
+      "surname": "Cappello",
+      "birthDate": "1972-04-23"
+    },
+    {
+      "id": "P243",
+      "givenName": "Anna Maria",
+      "surname": "Melis",
+      "notes": "Matrimonio 27/08/2005"
+    },
+    {
+      "id": "P244",
+      "givenName": "Mattia",
+      "surname": "Cappello",
+      "birthDate": "2006-11-27"
+    },
+    {
+      "id": "P245",
+      "givenName": "Daniele",
+      "surname": "Cappello",
+      "birthDate": "2006-11-27"
+    },
+    {
+      "id": "P246",
+      "givenName": "Angelo",
+      "surname": "Bergantin"
+    },
+    {
+      "id": "P247",
+      "givenName": "Giorgio",
+      "surname": "Bergantin"
+    },
+    {
+      "id": "P248",
+      "givenName": "Marco",
+      "surname": "Bergantin"
+    },
+    {
+      "id": "P249",
+      "givenName": "Luciana",
+      "surname": "Mainetti"
+    },
+    {
+      "id": "P250",
+      "givenName": "Marisa",
+      "surname": "Mainetti"
+    },
+    {
+      "id": "P251",
+      "givenName": "Roberto",
+      "surname": "Mainetti"
+    },
+    {
+      "id": "P252",
+      "givenName": "Massimo",
+      "surname": "Mainetti"
+    }
   ],
-
   "families": [
     {
-  "id": "F0",
-  "father": "P200",
-  "mother": "P201",
-  "children": [
-    "P100"
-  ]
-},
-{
-  "id": "F00",
-  "father": "P202",
-  "mother": "P203",
-  "children": [
-    "P101"
-  ]
-},
+      "id": "F0",
+      "father": "P200",
+      "mother": "P201",
+      "children": [
+        "P100"
+      ]
+    },
+    {
+      "id": "F00",
+      "father": "P202",
+      "mother": "P203",
+      "children": [
+        "P101"
+      ]
+    },
     {
       "id": "F1",
       "father": "P100",
@@ -499,7 +471,6 @@
         "P107"
       ]
     },
-
     {
       "id": "F2",
       "father": "P102",
@@ -509,20 +480,18 @@
         "P111"
       ]
     },
-
-   {
-  "id": "F3",
-  "father": "P1",
-  "mother": "P2",
-  "children": [
-    "P12",
-    "P205",
-    "P206",
-    "P3",
-    "P10"
-  ]
-},
-
+    {
+      "id": "F3",
+      "father": "P1",
+      "mother": "P2",
+      "children": [
+        "P12",
+        "P205",
+        "P206",
+        "P3",
+        "P10"
+      ]
+    },
     {
       "id": "F4",
       "father": "P3",
@@ -535,7 +504,6 @@
         "P9"
       ]
     },
-
     {
       "id": "F5",
       "father": "P10",
@@ -545,7 +513,6 @@
         "P15"
       ]
     },
-
     {
       "id": "F6",
       "father": "P14",
@@ -556,112 +523,104 @@
         "P19"
       ]
     },
-{
-  "id": "F7",
-  "father": "P6",
-  "mother": "P230",
-  "children": [
-    "P231",
-    "P232",
-    "P233",
-    "P234"
-  ]
-},
-{
-  "id": "F8",
-  "father": "P235",
-  "mother": "P231",
-  "children": [
-    "P236",
-    "P237"
-  ]
-},
-{
-  "id": "F9",
-  "father": "P232",
-  "children": [
-    "P242",
-    "P238"
-  ]
-},
-{
-  "id": "F10",
-  "father": "P238",
-  "mother": "P239",
-  "children": [
-    "P240",
-    "P241"
-  ]
-},
-{
-  "id": "F11",
-  "father": "P242",
-  "mother": "P243",
-  "children": [
-    "P244",
-    "P245"
-  ]
-},
-{
-  "id": "F12",
-  "father": "P246",
-  "mother": "P233",
-  "children": [
-    "P247",
-    "P248"
-  ]
-},
-{
-  "id": "F13",
-  "mother": "P234",
-  "children": [
-    "P249",
-    "P250",
-    "P251",
-    "P252"
-  ]
-}
+    {
+      "id": "F7",
+      "father": "P6",
+      "mother": "P230",
+      "children": [
+        "P231",
+        "P232",
+        "P233",
+        "P234"
+      ]
+    },
+    {
+      "id": "F8",
+      "father": "P235",
+      "mother": "P231",
+      "children": [
+        "P236",
+        "P237"
+      ]
+    },
+    {
+      "id": "F9",
+      "father": "P232",
+      "children": [
+        "P242",
+        "P238"
+      ]
+    },
+    {
+      "id": "F10",
+      "father": "P238",
+      "mother": "P239",
+      "children": [
+        "P240",
+        "P241"
+      ]
+    },
+    {
+      "id": "F11",
+      "father": "P242",
+      "mother": "P243",
+      "children": [
+        "P244",
+        "P245"
+      ]
+    },
+    {
+      "id": "F12",
+      "father": "P246",
+      "mother": "P233",
+      "children": [
+        "P247",
+        "P248"
+      ]
+    },
+    {
+      "id": "F13",
+      "mother": "P234",
+      "children": [
+        "P249",
+        "P250",
+        "P251",
+        "P252"
+      ]
+    }
   ],
-
   "sources": [
     {
-  "id": "S1",
-  "type": "grave",
-  "title": "Tomba Ballario-Cappello",
-
-  "persons": [
-    "P100",
-    "P101"
-  ],
-
-  "file": "P100/tomba_famiglia.jpg",
-
-  "researchStatus": "confermato"
-},
+      "id": "S1",
+      "type": "grave",
+      "title": "Tomba Ballario-Cappello",
+      "persons": [
+        "P100",
+        "P101"
+      ],
+      "file": "P100/tomba_famiglia.jpg",
+      "researchStatus": "confermato"
+    },
     {
       "id": "S2",
       "type": "marriage-record",
       "title": "Atto matrimonio 1919",
       "persons": [
-      "P106",
-      "P113"
-  ],
-
-  "file": "P106/P106-P113_Capello_Vittorio_Saccati_Maria_Atto_Matrimonio_1919.jpg",
-
-  "researchStatus": "confermato"
+        "P106",
+        "P113"
+      ],
+      "file": "P106/P106-P113_Capello_Vittorio_Saccati_Maria_Atto_Matrimonio_1919.jpg",
+      "researchStatus": "confermato"
     },
     {
       "id": "S3",
       "type": "born-record",
       "title": "Atto nascita e battesimo 1852",
       "persons": [
-      "P102"     
-  ],
-
-  "file": "P102/P102_Capello_Ferdinando_Giuseppe_1852_Atto_Nascita_Battesimo.jpg",
-
-  "researchStatus": "confermato"
+        "P102"
+      ],
+      "file": "P102/P102_Capello_Ferdinando_Giuseppe_1852_Atto_Nascita_Battesimo.jpg",
+      "researchStatus": "confermato"
     },
     {
       "id": "S4",
@@ -669,18 +628,15 @@
       "title": "Schema genealogico manoscritto"
     },
     {
-  "id": "S5",
-  "type": "death-record",
-  "title": "Atto di morte Giovanni Cappello e Caterina Ballario 1904",
-
-  "persons": [
-    "P100",
-    "P101"
-  ],
-
-  "file": "P100/P100-P101_Cappello_Giovanni_Ballario_Caterina_Atti_Morte_1904.jpg",
-
-  "researchStatus": "confermato"
-}
+      "id": "S5",
+      "type": "death-record",
+      "title": "Atto di morte Giovanni Cappello e Caterina Ballario 1904",
+      "persons": [
+        "P100",
+        "P101"
+      ],
+      "file": "P100/P100-P101_Cappello_Giovanni_Ballario_Caterina_Atti_Morte_1904.jpg",
+      "researchStatus": "confermato"
+    }
   ]
 }
