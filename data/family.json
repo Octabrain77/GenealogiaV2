@@ -57,7 +57,8 @@
       "birthYear": 1860,
       "deathDate": "1921-04-09",
       "sources": [
-        "S9"
+        "S9",
+        "S10"
       ]
     },
     {
@@ -65,7 +66,10 @@
       "givenName": "Antonio",
       "surname": "Torino",
       "birthDate": "1854-04-29",
-      "deathDate": "1931-06-23"
+      "deathDate": "1931-06-23",
+      "sources": [
+        "S11"
+      ]
     },
     {
       "id": "P1",
@@ -691,7 +695,25 @@
       "persons": [
         "P104"
       ],
-      "file": "P104/P104_Cappello_Maria_1852_Lapide.jpg"
+      "file": "P104/P104_Cappello_Maria_1860_Lapide.jpg"
+    },
+    {
+      "id": "S10",
+      "type": "death-record",
+      "title": "Atto di morte Capello Maria",
+      "persons": [
+        "P104"
+      ],
+      "file": "P104/P104_Capello_Maria_1921_Morte.jpg"
+    },
+    {
+      "id": "S11",
+      "type": "death-record",
+      "title": "Lapide Tomba Famiglia Cap(p)ello Asti",
+      "persons": [
+        "P105"
+      ],
+      "file": "P105/P105_Torino_Antonio_1854_Lapide.jpg"
     }
   ]
 }
