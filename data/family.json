@@ -47,7 +47,7 @@
 
     {
       "id": "P102",
-      "givenName": "Ferdinando",
+      "givenName": "Ferdinando Giuseppe",
       "surname": "Capello",
       "alternateSurname": "Cap(p)ello",
       "birthDate": "1852-07-31",
@@ -656,10 +656,10 @@
       "type": "born-record",
       "title": "Atto nascita e battesimo 1852",
       "persons": [
-      "P103"     
+      "P102"     
   ],
 
-  "file": "P103/P103_Capello_Ferdinando_Giuseppe_1852_Atto_Nascita_Battesimo.jpg",
+  "file": "P102/P102_Capello_Ferdinando_Giuseppe_1852_Atto_Nascita_Battesimo.jpg",
 
   "researchStatus": "confermato"
     },
