@@ -165,7 +165,7 @@
       "sources": [
         "S23",
         "S24"
-      ],
+      ]
     },
     {
       "id": "P112",
@@ -173,7 +173,10 @@
       "surname": "Ferro",
       "birthDate": "1893-04-08",
       "deathDate": "",
-      "notes": "Nata a Casale Monferrato. Non è nella tomba di famiglia dei Ca(p)pello"
+      "notes": "Nata a Casale Monferrato. Non è nella tomba di famiglia dei Ca(p)pello",
+      "sources": [
+        "S23",
+      ]
     },
     {
       "id": "P113",
