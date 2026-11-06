@@ -161,12 +161,19 @@
       "surname": "Cappello",
       "birthDate": "1885-09-05",
       "deathDate": "1939-02-12",
-      "notes": "Nato a Frinco."
+      "notes": "Nato a Frinco. Sposato Ferro Luigia Angela",
+      "sources": [
+        "S23",
+        "S24"
+      ],
     },
     {
       "id": "P112",
       "givenName": "Luigia",
-      "surname": "Ferro"
+      "surname": "Ferro",
+      "birthDate": "1893-04-08",
+      "deathDate": "",
+      "notes": "Nata a Casale Monferrato. Non è nella tomba di famiglia dei Ca(p)pello"
     },
     {
       "id": "P113",
@@ -865,6 +872,24 @@
         "P109"
       ],
       "file": "P109/P109_Capello_Ferdinanda_Rosa_Caterina_1881_Lapide.jpg"
+    },{
+      "id": "S23",
+      "type": "marriage-record",
+      "title": "Atto di matrimonio 1921",
+      "persons": [
+        "P111",
+        "P112"
+      ],
+      "file": "P111/P111-P112_Cappello_Alfredo_Antonio_Francesco_Ferro_Luigia_1921_Atto_Matrimonio.jpg"
+    },{
+      "id": "S24",
+      "type": "grave",
+      "title": "Lapide Tomba Famiglia Cap(p)ello Asti",
+      "persons": [
+        "P111"
+      ],
+      "file": "P111/P111_Cappello_Alfredo_Antonio_Francesco_1885_Lapide.jpg"
     }
+      
   ]
 }
