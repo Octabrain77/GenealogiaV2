@@ -892,6 +892,22 @@
         "P111"
       ],
       "file": "P111/P111_Cappello_Alfredo_Antonio_Francesco_1885_Lapide.jpg"
+    },{
+      "id": "S25",
+      "type": "born-record",
+      "title": "Atto Battesimo 1891",
+      "persons": [
+        "P3"
+      ],
+      "file": "P3/P3_Cappello_Giovanni_Luigi_Giuseppe_1891_Atto_Battesimo.jpg"
+    },{
+      "id": "S26",
+      "type": "grave",
+      "title": "Lapide cimitero Asti",
+      "persons": [
+        "P3"
+      ],
+      "file": "P3/P3_CAPPELLO_Giovanni_Luigi_Giuseppe_1891_Lapide.jpg"
     }
       
   ]
