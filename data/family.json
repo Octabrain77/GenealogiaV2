@@ -233,6 +233,10 @@
       ],
       "birthDate": "1891-04-01",
       "deathYear": 1962,
+      "sources": [
+        "S25",
+        "S26"
+      ],
       "notes": "Sposò Maria Bobba il 06/01/1913."
     },
     {
@@ -240,7 +244,11 @@
       "givenName": "Maria",
       "surname": "Bobba",
       "birthYear": 1893,
-      "deathYear": 1969
+      "deathYear": 1969,
+      "sources": [
+        "S27"
+      ],
+      "notes": "Sposò Cappello Giovanni il 06/01/1913."
     },
     {
       "id": "P10",
@@ -275,6 +283,9 @@
       "surname": "Cappello",
       "birthYear": 1923,
       "deathYear": 1923,
+      "sources": [
+        "S28"
+      ],
       "notes": "Morto a due mesi."
     },
     {
@@ -913,9 +924,17 @@
       "type": "grave",
       "title": "Lapide cimitero Asti",
       "persons": [
-        "P3"
+        "P4"
       ],
       "file": "P4/P4_Bobba_Maria_1893_Lapide.jpg"
+    },{
+      "id": "S28",
+      "type": "death-record",
+      "title": "Atto di morte 1923",
+      "persons": [
+        "P5"
+      ],
+      "file": "P5/P5_Cappello_Carlo_1923_Atto_Morte.jpg"
     }
       
   ]
