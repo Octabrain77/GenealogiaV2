@@ -38,7 +38,7 @@
         "S3",
         "S4"
       ],
-      "notes": "Documenti di nascita Capello e nasce 31.07 non 02.08 come riportato su lapide. Utile perchè nell'atto di nascita viene riportato figlio di Giovanni e di Giuseppe connsente di andare oltre Giovanni Capello ante 1822"
+      "notes": "Documenti di nascita Capello e nasce 31.07 non 02.08 come riportato su lapide. Utile perchè nell'atto di nascita viene riportato figlio di Giovanni e di Giuseppe consente di andare oltre Giovanni Capello ante 1822. Sposato Elisabetta Terzuolo"
     },
     {
       "id": "P103",
@@ -414,6 +414,9 @@
         "Capello"
       ],
       "birthDate": "1887-06-24",
+      "sources": [
+        "S40"
+      ],
       "notes": "Sposò Ferrero Edoardo il 18/09/1913 a Villa San Secondo."
     },
     {
@@ -1067,6 +1070,15 @@
         "P15"
       ],
       "file": "P15/P15_CAPPELLO_Rosa_Maria_1927_Lapide.jpg"
+    },
+    {
+      "id": "S40",
+      "type": "born-record",
+      "title": "Atto battesimo 1887",
+      "persons": [
+        "P205"
+      ],
+      "file": "P205/P205_CAPELLO_Catterina_Angiolina_Maria_1887_atto_battesimo.jpg"
     }
   ]
 }
