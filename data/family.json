@@ -41,7 +41,7 @@
       "notes": "Documenti di nascita Capello e nasce 31.07 non 02.08 come riportato su lapide. Utile perchè nell'atto di nascita viene riportato figlio di Giovanni e di Giuseppe consente di andare oltre Giovanni Capello ante 1822. Sposato Elisabetta Terzuolo"
     },
     {
-      "id": "3",
+      "id": "P103",
       "givenName": "Elisabetta",
       "surname": "Terzuolo",
       "birthDate": "1869-09-21",
@@ -1096,7 +1096,7 @@
     {
       "id": "S42",
       "type": "born-record",
-      "title": "Atto battesimo 1889",
+      "title": "Atto battesimo 1885",
       "persons": [
         "P10"
       ],
