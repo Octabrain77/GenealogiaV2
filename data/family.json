@@ -332,14 +332,22 @@
       "nickname": "Barbacicu",
       "surname": "Cappello",
       "birthYear": 1924,
-      "deathYear": 1973
+      "deathYear": 1973,
+      "sources": [
+        "S36"
+      ],
+      "notes": "Cappello Francesco Barbacicu"
     },
     {
       "id": "P9",
       "givenName": "Angelo",
       "surname": "Cappello",
       "birthYear": 1925,
-      "deathYear": 1983
+      "deathYear": 1983,
+      "sources": [
+        "S37"
+      ],
+      "notes": "Cappello Angelo"
     },
     {
       "id": "P14",
@@ -1017,6 +1025,24 @@
         "P7"
       ],
       "file": "P7/P7_CAPPELLO_Rosa_Magna_1920_Lapide.jpg"
+    },
+    {
+      "id": "S36",
+      "type": "grave",
+      "title": "Lapide Cimitero Asti",
+      "persons": [
+        "P8"
+      ],
+      "file": "P8/P8_CAPPELLO_Francesco_Barbacicu_1924_Lapide.jpg"
+    },
+    {
+      "id": "S37",
+      "type": "grave",
+      "title": "Lapide Cimitero Asti",
+      "persons": [
+        "P9"
+      ],
+      "file": "P9/P9_CAPPELLO_Angelo_1925_Lapide.jpg"
     }
   ]
 }
