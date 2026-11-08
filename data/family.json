@@ -41,7 +41,7 @@
       "notes": "Documenti di nascita Capello e nasce 31.07 non 02.08 come riportato su lapide. Utile perchè nell'atto di nascita viene riportato figlio di Giovanni e di Giuseppe consente di andare oltre Giovanni Capello ante 1822. Sposato Elisabetta Terzuolo"
     },
     {
-      "id": "P103",
+      "id": "3",
       "givenName": "Elisabetta",
       "surname": "Terzuolo",
       "birthDate": "1869-09-21",
@@ -262,7 +262,8 @@
       "deathYear": 1982,
       "sources": [
         "S29",
-        "S30"
+        "S30",
+        "S42"
       ],
       "notes": "Sposò Teresa Francesca Ermelinda Zoppi il 28/12/1923 presso San Pietro di Asti."
     },
@@ -1091,6 +1092,15 @@
         "P206"
       ],
       "file": "P206/P206_CAPPELLO_Maria_Carmela_Giuseppina_1889_atto_battesimo.jpg"
+    },
+    {
+      "id": "S42",
+      "type": "born-record",
+      "title": "Atto battesimo 1889",
+      "persons": [
+        "P10"
+      ],
+      "file": "P10/P10_CAPELLO_Francesco_Antonio_Giuseppe_1895_atto_battesimo.jpg"
     }
   ]
 }
