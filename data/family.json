@@ -320,7 +320,11 @@
       "nickname": "Magna",
       "surname": "Cappello",
       "birthYear": 1920,
-      "deathYear": 2004
+      "deathYear": 2004,
+      "sources": [
+        "S35"
+      ],
+      "notes": "Cappello Magna Rosa"
     },
     {
       "id": "P8",
@@ -1004,6 +1008,14 @@
         "P6"
       ],
       "file": "P6/P6_CAPPELLO_Giuseppe_Pinin_1971_Lapide.jpg"
-    }
+    },
+    {
+      "id": "S35",
+      "type": "grave",
+      "title": "Lapide Cimitero Portacomaro",
+      "persons": [
+        "P7"
+      ],
+      "file": "P7/P7_CAPPELLO_Rosa_Magna_1920_Lapide.jpg"
   ]
 }
