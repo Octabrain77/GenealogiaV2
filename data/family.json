@@ -270,6 +270,13 @@
       "id": "P11",
       "givenName": "Teresa Francesca Ermelinda",
       "surname": "Zoppi"
+      "birthDate": "1897-01-26",
+      "deathYear": 1975,
+      "sources": [
+        "S30",
+        "S31"
+      ],
+      "notes": "Sposò Cappello Francesco Antonio Giuseppe "Cichin" il 28/12/1923 presso San Pietro di Asti."
     },
     {
       "id": "P12",
@@ -955,7 +962,14 @@
         "P10"
       ],
       "file": "P10/P10-P11_Cappello_Francesco_Zoppi_Teresa_1923_Atto_Matrimonio.jpg"
-    }
+    },{
+      "id": "S31",
+      "type": "grave",
+      "title": "Lapide cimitero Portacomaro",
+      "persons": [
+        "P11"
+      ],
+      "file": "P11/P11_Zoppi_Teresa_Francesa_Ermelinda_1897_Lapide.jpg"
       
   ]
 }
