@@ -427,6 +427,9 @@
         "Capello"
       ],
       "birthDate": "1889-04-28",
+      "sources": [
+        "S41"
+      ],
       "notes": "Sposò Michele Martinelli (?) il 25/02/1927 a San Martino Asti."
     },
     {
@@ -1079,6 +1082,15 @@
         "P205"
       ],
       "file": "P205/P205_CAPELLO_Catterina_Angiolina_Maria_1887_atto_battesimo.jpg"
+    },
+    {
+      "id": "S41",
+      "type": "born-record",
+      "title": "Atto battesimo 1889",
+      "persons": [
+        "P206"
+      ],
+      "file": "P206/P206_CAPPELLO_Maria_Carmela_Giuseppina_1889_atto_battesimo.jpg"
     }
   ]
 }
