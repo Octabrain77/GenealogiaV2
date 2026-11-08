@@ -286,6 +286,9 @@
         "Capello"
       ],
       "birthDate": "1886-02-07",
+      "sources": [
+        "S32"
+      ],
       "notes": "Viveva presso l'Istituto dei Caissotti."
     },
     {
@@ -970,6 +973,15 @@
         "P11"
       ],
       "file": "P11/P11_Zoppi_Teresa_Francesa_Ermelinda_1897_Lapide.jpg"
+    },
+    {
+      "id": "S32",
+      "type": "born-record",
+      "title": "Atto batttesimo 1886",
+      "persons": [
+        "P12"
+      ],
+      "file": "P12/P12_CAPPELLO_Clara_Caterina_Maria_1886_atto_battesimo.jpg"
     }  
   ]
 }
