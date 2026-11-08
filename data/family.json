@@ -354,7 +354,10 @@
       "givenName": "Giuseppe",
       "surname": "Cappello",
       "birthYear": 1924,
-      "deathYear": 2014
+      "deathYear": 2014,
+      "sources": [
+        "S38"
+      ]
     },
     {
       "id": "P15",
@@ -362,6 +365,9 @@
       "surname": "Cappello",
       "birthYear": 1927,
       "deathYear": 2017,
+      "sources": [
+        "S39"
+      ],
       "notes": "Sposata Fornaca."
     },
     {
@@ -1043,6 +1049,24 @@
         "P9"
       ],
       "file": "P9/P9_CAPPELLO_Angelo_1925_Lapide.jpg"
+    },
+    {
+      "id": "S38",
+      "type": "grave",
+      "title": "Lapide Cimitero Asti",
+      "persons": [
+        "P14"
+      ],
+      "file": "P14/P14_CAPPELLO_Giuseppe_1924_Lapide.jpg"
+    },
+    {
+      "id": "S39",
+      "type": "grave",
+      "title": "Lapide Cimitero Asti",
+      "persons": [
+        "P15"
+      ],
+      "file": "P15/P15_CAPPELLO_Rosa_Maria_1927_Lapide.jpg"
     }
   ]
 }
