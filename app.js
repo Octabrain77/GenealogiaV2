@@ -524,14 +524,15 @@ function searchPeople(){
         `).join("");
 }
 
-function renderTree(){
+function renderTree(rootId = "P100"){
 
-    const rootPerson = findPerson("P100");
+    const rootPerson = findPerson(rootId);
 
     const parentFamily =
-        genealogy.families.find(
-            f => f.children && f.children.includes("P100")
-        );
+    genealogy.families.find(
+        f => f.children && f.children.includes(rootId)
+    );
+
 
     const father =
         parentFamily
@@ -544,9 +545,9 @@ function renderTree(){
         : null;
 
     const spouseFamily =
-        genealogy.families.find(
-            f => f.father === "P100" || f.mother === "P100"
-        );
+    genealogy.families.find(
+        f => f.father === rootId || f.mother === rootId
+    );
 
     const spouse =
         spouseFamily
@@ -570,13 +571,25 @@ function renderTree(){
 
             ${
                 father
-                ? `<div class="person">${buildPersonName(father)}</div>`
+                ? `<div
+    class="person"
+    onclick="renderTree('${father.id}')">
+
+    ${buildPersonName(father)}
+
+</div>`
                 : ""
             }
 
             ${
                 mother
-                ? `<div class="person">${buildPersonName(mother)}</div>`
+                ? `<div
+    class="person"
+    onclick="renderTree('${mother.id}')">
+
+    ${buildPersonName(mother)}
+
+</div>`
                 : ""
             }
 
@@ -593,9 +606,13 @@ function renderTree(){
             ${
                 spouse
                 ? `
-                    <div class="person">
-                        ${buildPersonName(spouse)}
-                    </div>
+                    <div
+    class="person"
+    onclick="renderTree('${spouse.id}')">
+
+    ${buildPersonName(spouse)}
+
+</div>
                   `
                 : ""
             }
@@ -611,7 +628,7 @@ function renderTree(){
 
                     <div
                         class="person"
-                        onclick="showPerson('${c.id}')">
+                        onclick="renderTree('${c.id}')">
 
                         ${buildPersonName(c)}
 
