@@ -483,8 +483,12 @@
       "id": "P235",
       "givenName": "Renato",
       "surname": "Raviola",
-      "birthYear": 1936,
-      "deathYear": 1986
+      "birthYear": "1936-09-25",
+      "deathYear": "1986-11-02",
+      "sources": [
+        "S45"
+      ],
+      "notes": "Sposato Giovanna Cappello. Tomba Raviola Portacomaro"
     },
     {
       "id": "P236",
@@ -1119,7 +1123,8 @@
         "P231"
       ],
       "file": "P231/P231_CAPPELLO_Giovanna_1941_Lapide.jpg"
-    },{
+    },
+    {
       "id": "S44",
       "type": "grave",
       "title": "Lapide Cimitero Portacomaro",
@@ -1127,6 +1132,15 @@
         "P230"
       ],
       "file": "P230/P230_Ferraris_Maria_1921_Lapide.jpg"
-    }
+    },
+    {
+      "id": "S45",
+      "type": "grave",
+      "title": "Lapide Cimitero Portacomaro",
+      "persons": [
+        "P235"
+      ],
+      "file": "P235/P235_Raviola_Renato_1936_Lapide.jpg"
+    }  
   ]
 }
