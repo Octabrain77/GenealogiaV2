@@ -407,3 +407,27 @@ ul{
     background:#f3f4f6;
     border:2px solid #6b7280;
 }
+.tree-generation{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+
+    margin:30px 0;
+
+    flex-wrap:wrap;
+}
+
+.tree-link{
+
+    text-align:center;
+
+    font-size:40px;
+}
+
+.person.selected{
+
+    background:#2563eb;
+
+    color:white;
+}
