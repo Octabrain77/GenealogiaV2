@@ -198,7 +198,7 @@
       "sources": [
         "S7"
       ],
-      "notes": "Sposata con Barbero Giuseppe"
+      "notes": "Sposata con Barbero Giuseppe. Indagare il collegamento con gli altri nella tomba"
     },
     {
       "id": "P115",
@@ -464,13 +464,16 @@
       "id": "P232",
       "givenName": "Mario",
       "surname": "Cappello",
-      "birthDate": "1947-02-11"
+      "birthDate": "1947-02-11",
+      "deathDate": "Vivente"
     },
     {
       "id": "P233",
       "givenName": "Rosanna",
       "surname": "Cappello",
-      "birthDate": "1955-11-05"
+      "birthDate": "1955-11-05",
+      "deathDate": "Vivente",
+      "notes": "Sposata Angelo Bergatin"
     },
     {
       "id": "P234",
@@ -493,96 +496,124 @@
     {
       "id": "P236",
       "givenName": "Franco",
-      "surname": "Raviola"
+      "surname": "Raviola",
+      "birthYear": "",
+      "deathDate": "Vivente"
     },
     {
       "id": "P237",
       "givenName": "Silvana",
-      "surname": "Raviola"
+      "surname": "Raviola",
+      "birthYear": "",
+      "deathDate": "Vivente"
     },
     {
       "id": "P238",
       "givenName": "Davide",
       "surname": "Cappello",
-      "birthDate": "1977-03-21"
+      "birthDate": "1977-03-21",
+      "deathDate": "Vivente"
     },
     {
       "id": "P239",
       "givenName": "Monica",
       "surname": "Grillone",
       "birthDate": "1976-02-27",
+      "deathDate": "Vivente",
       "notes": "Matrimonio 06/06/2009"
     },
     {
       "id": "P240",
       "givenName": "Chiara",
       "surname": "Cappello",
-      "birthDate": "2012-06-24"
+      "birthDate": "2012-06-24",
+      "deathDate": "Vivente"
     },
     {
       "id": "P241",
       "givenName": "Serena",
       "surname": "Cappello",
-      "birthDate": "2016-04-14"
+      "birthDate": "2016-04-14",
+      "deathDate": "Vivente"
     },
     {
       "id": "P242",
       "givenName": "Stefano",
       "surname": "Cappello",
-      "birthDate": "1972-04-23"
+      "birthDate": "1972-04-23",
+      "deathDate": "Vivente"
     },
     {
       "id": "P243",
       "givenName": "Anna Maria",
       "surname": "Melis",
+      "birthDate": "",
+      "deathDate": "Vivente",
       "notes": "Matrimonio 27/08/2005"
     },
     {
       "id": "P244",
       "givenName": "Mattia",
       "surname": "Cappello",
-      "birthDate": "2006-11-27"
+      "birthDate": "2006-11-27",
+      "deathDate": "Vivente"
     },
     {
       "id": "P245",
       "givenName": "Daniele",
       "surname": "Cappello",
-      "birthDate": "2006-11-27"
+      "birthDate": "2006-11-27",
+      "deathDate": "Vivente"
     },
     {
       "id": "P246",
       "givenName": "Angelo",
-      "surname": "Bergantin"
+      "surname": "Bergantin",
+      "birthDate": "",
+      "deathDate": "Vivente",
+      "notes": "Sposato Rosanna Cappello."
     },
     {
       "id": "P247",
       "givenName": "Giorgio",
-      "surname": "Bergantin"
+      "surname": "Bergantin",
+      "birthDate": "",
+      "deathDate": "Vivente"
     },
     {
       "id": "P248",
       "givenName": "Marco",
-      "surname": "Bergantin"
+      "surname": "Bergantin",
+      "birthDate": "",
+      "deathDate": "Vivente"
     },
     {
       "id": "P249",
       "givenName": "Luciana",
-      "surname": "Mainetti"
+      "surname": "Mainetti",
+      "birthDate": "",
+      "deathDate": "Vivente"
     },
     {
       "id": "P250",
       "givenName": "Marisa",
-      "surname": "Mainetti"
+      "surname": "Mainetti",
+      "birthDate": "",
+      "deathDate": "Vivente"
     },
     {
       "id": "P251",
       "givenName": "Roberto",
       "surname": "Mainetti"
+      "birthDate": "",
+      "deathDate": "Vivente"
     },
     {
       "id": "P252",
       "givenName": "Massimo",
-      "surname": "Mainetti"
+      "surname": "Mainetti",
+      "birthDate": "",
+      "deathDate": ""
     }
   ],
   "families": [
