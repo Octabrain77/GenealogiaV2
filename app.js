@@ -526,25 +526,103 @@ function searchPeople(){
 
 function renderTree(){
 
+    const rootPerson = findPerson("P100");
+
+    const parentFamily =
+        genealogy.families.find(
+            f => f.children && f.children.includes("P100")
+        );
+
+    const father =
+        parentFamily
+        ? findPerson(parentFamily.father)
+        : null;
+
+    const mother =
+        parentFamily
+        ? findPerson(parentFamily.mother)
+        : null;
+
+    const spouseFamily =
+        genealogy.families.find(
+            f => f.father === "P100" || f.mother === "P100"
+        );
+
+    const spouse =
+        spouseFamily
+        ? findPerson(
+            spouseFamily.father === "P100"
+                ? spouseFamily.mother
+                : spouseFamily.father
+        )
+        : null;
+
+    const children =
+        spouseFamily
+        ? spouseFamily.children.map(findPerson)
+        : [];
+
     let html = `
-        <h2>Vista Albero (beta)</h2>
 
-        <p>
-            Dataset genealogico caricato:
-            ${genealogy.persons.length} persone
-        </p>
-    `;
+        <h2>Albero Genealogico</h2>
 
-    html += genealogy.persons.map(p => `
+        <div class="tree-generation">
 
-        <div class="person"
-             onclick="showPerson('${p.id}')">
+            ${
+                father
+                ? `<div class="person">${buildPersonName(father)}</div>`
+                : ""
+            }
 
-            ${buildPersonName(p)}
+            ${
+                mother
+                ? `<div class="person">${buildPersonName(mother)}</div>`
+                : ""
+            }
 
         </div>
 
-    `).join("");
+        <div class="tree-link">│</div>
+
+        <div class="tree-generation">
+
+            <div class="person selected">
+                ${buildPersonName(rootPerson)}
+            </div>
+
+            ${
+                spouse
+                ? `
+                    <div class="person">
+                        ${buildPersonName(spouse)}
+                    </div>
+                  `
+                : ""
+            }
+
+        </div>
+
+        <div class="tree-link">│</div>
+
+        <div class="tree-generation">
+
+            ${
+                children.map(c => `
+
+                    <div
+                        class="person"
+                        onclick="showPerson('${c.id}')">
+
+                        ${buildPersonName(c)}
+
+                    </div>
+
+                `).join("")
+            }
+
+        </div>
+
+    `;
 
     document.getElementById("content").innerHTML = html;
 }
