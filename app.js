@@ -550,13 +550,13 @@ function renderTree(rootId = "P100"){
     );
 
     const spouse =
-        spouseFamily
-        ? findPerson(
-            spouseFamily.father === "P100"
-                ? spouseFamily.mother
-                : spouseFamily.father
-        )
-        : null;
+    spouseFamily
+    ? findPerson(
+        spouseFamily.father === rootId
+            ? spouseFamily.mother
+            : spouseFamily.father
+    )
+    : null;
 
     const children =
         spouseFamily
