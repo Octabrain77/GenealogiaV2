@@ -524,6 +524,13 @@ function searchPeople(){
         `).join("");
 }
 
+function treeSelectPerson(personId){
+
+    renderTree(personId);
+
+    showPerson(personId);
+}
+
 function renderTree(rootId = "P100"){
 
     const rootPerson = findPerson(rootId);
@@ -573,7 +580,7 @@ function renderTree(rootId = "P100"){
                 father
                 ? `<div
     class="person"
-    onclick="renderTree('${father.id}')">
+    onclick="treeSelectPerson('${father.id}')">
 
     ${buildPersonName(father)}
 
@@ -585,7 +592,7 @@ function renderTree(rootId = "P100"){
                 mother
                 ? `<div
     class="person"
-    onclick="renderTree('${mother.id}')">
+    onclick="treeSelectPerson('${mother.id}')">
 
     ${buildPersonName(mother)}
 
@@ -608,7 +615,7 @@ function renderTree(rootId = "P100"){
                 ? `
                     <div
     class="person"
-    onclick="renderTree('${spouse.id}')">
+    onclick="treeSelectPerson('${spouse.id}')">
 
     ${buildPersonName(spouse)}
 
@@ -628,7 +635,7 @@ function renderTree(rootId = "P100"){
 
                     <div
                         class="person"
-                        onclick="renderTree('${c.id}')">
+                        onclick="treeSelectPerson('${c.id}')">
 
                         ${buildPersonName(c)}
 
