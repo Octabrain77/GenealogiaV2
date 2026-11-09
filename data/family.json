@@ -449,7 +449,11 @@
       "givenName": "Giovanna",
       "surname": "Cappello",
       "birthDate": "1941-11-12",
-      "deathDate": "2023-09-15"
+      "deathDate": "2023-09-15",
+      "sources": [
+        "S43"
+      ],
+      "notes": "Sposata Renato Raviola. Tomba Raviola Portacomaro"
     },
     {
       "id": "P232",
@@ -1101,6 +1105,15 @@
         "P10"
       ],
       "file": "P10/P10_CAPELLO_Francesco_Antonio_Giuseppe_1895_atto_battesimo.jpg"
-    }
+    }, 
+    {
+      "id": "S43",
+      "type": "grave",
+      "title": "Lapide Cimitero Portacomaro",
+      "persons": [
+        "P231"
+      ],
+      "file": "P231/P231_CAPPELLO_Giovanna_1927_Lapide.jpg"
+    },
   ]
 }
