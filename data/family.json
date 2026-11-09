@@ -442,7 +442,12 @@
       "id": "P230",
       "givenName": "Maria",
       "surname": "Ferraris",
-      "birthDate": "1921-02-23"
+      "birthDate": "1921-02-23",
+      "deathDate": "1988?",
+      "sources": [
+        "S44"
+      ],
+      "notes": "Sposata Cappello Giuseppe Pinin. Tomba Portacomaro"
     },
     {
       "id": "P231",
@@ -1113,7 +1118,15 @@
       "persons": [
         "P231"
       ],
-      "file": "P231/P231_CAPPELLO_Giovanna_1927_Lapide.jpg"
-    },
+      "file": "P231/P231_CAPPELLO_Giovanna_1941_Lapide.jpg"
+    },{
+      "id": "S44",
+      "type": "grave",
+      "title": "Lapide Cimitero Portacomaro",
+      "persons": [
+        "P230"
+      ],
+      "file": "P230/P230_Ferraris_Maria_1921_Lapide.jpg"
+    }
   ]
 }
