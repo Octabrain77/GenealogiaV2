@@ -480,7 +480,11 @@
       "givenName": "Imelda",
       "surname": "Cappello",
       "birthDate": "1943-09-28",
-      "deathDate": "2022-10-02"
+      "deathDate": "2022-10-02",
+      "sources": [
+        "S46"
+      ],
+       "notes": "Ricordo funerale"
     },
     {
       "id": "P235",
@@ -1172,6 +1176,13 @@
         "P235"
       ],
       "file": "P235/P235_Raviola_Renato_1936_Lapide.jpg"
-    }  
+    },
+    {"id": "S46",
+      "type": "death-record",
+      "title": "Ricordo partecipazione morte",
+      "persons": [
+        "P234"
+      ],
+      "file": "P234/P234_CAPPELLO_Imelda_1943_Ricordo_Morte.jpg"  
   ]
 }
